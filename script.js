@@ -2,7 +2,7 @@ var check = document.getElementById("check");
 var input = document.getElementById("userInput");
 var ul = document.getElementById("list");
 var enter = document.getElementById("enter");
-var btn = document.getElementsByClassName("btn");
+var add = document.getElementsByClassName("add");
 
 function inputLength () {
 	return input.value.length;
@@ -14,10 +14,14 @@ function addList() {
 	var button = document.createElement("button");
 	button.appendChild(document.createTextNode(" "));
 	li.appendChild(button);
-	button.setAttribute("class","btn")
+	button.setAttribute("class","add");
+	var buttonTwo = document.createElement("button");
+	buttonTwo.appendChild(document.createTextNode(""));
+	li.appendChild(buttonTwo);
+	buttonTwo.setAttribute("class","del far fa-times-circle");
 	input.value = "";
 
-	var deleteBtn = document.createElement("button");
+	var deleteBtn = document.createElement("del");
 }
 function afterClick (){
 	if (inputLength() > 0) {
