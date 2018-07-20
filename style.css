@@ -1,77 +1,42 @@
-*{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
+* {
+  margin: auto;
+  padding: 0;
+  background-color: #2d344f;
+  font-family: 'Roboto', sans-serif;
 }
-body {
-	background-color: #353839;
+.container {
+  text-align: center;
+  color: white;
+  margin-top: 3em;
 }
-#container{
-position: relative;
-padding: 0 10%;
-height: 100vh;
+#name {
+  font-size: 4em;
+}
+#temp {
+  font-size: 5em;
+}
+#con {
+  font-size: 1.5em;
+}
+#icon {
+  height: 8rem;
+  width : 8rem;
+}
+.change{
+  background-color: white;
+  border-radius: 5px;
+  font-size: 2em;
+  border: 2px solid black;
+  padding: 7px;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+footer a {
+  color: purple;
+}
+footer{
+  margin-top: 2em;
 
-}
-#top {
-	position: relative;
-	border: 1px solid black;
-	background-color: #4682B4;
-	color: #FFFAFA;
-	height: 20rem;
-}
-#header{
-	margin-top: 8%;
-	font-size: 2rem;
-}
-#enter{
-	background-color: #B22222;
-	font-size: 1.2rem;
-	color: #FFFAFA;
-	padding: .3rem;
-	width: 15%;
-	border:1px solid black;
-}
-#userInput{
-	font-size: 1.5rem;
-	width: 50%;
-	border: 1px solid black;
-
-}
-#main{
-	background-color: #F5F5F5;
-	border: 1px solid black;
-	padding: 3%;
-	height: 100%;
-	overflow: auto;
-	}
-li {
-		border: 1px solid black;
-		font-size:1.5rem;
-		padding: 0.5rem;
-		background-color: white;
-		padding: 2%;
-		margin-bottom: 1%;
-		list-style: none;
-		
-}
-.add{
-	border-radius: 50%;
-	padding: .5%;
-	float: left;
-	background-color: #4CAF50;
-	background-color: white;
-	width: 2rem;
-	height: 2rem;
-	border: 1px solid black;
-	color: white;
-}
-.del {
-	font-size: 2rem;
-	float: right;
-	background:transparent;
-	border: none;
-}
-.done{
-	display:none;
 }
